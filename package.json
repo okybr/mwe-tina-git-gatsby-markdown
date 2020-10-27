@@ -1,0 +1,15 @@
+{
+  "name": "live-show",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Orhan Kemal Yüksel <orhankemal.yueksel@br.de>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "gatsby": "^2.24.87",
+    "gatsby-source-filesystem": "^2.3.37",
+    "gatsby-transformer-remark": "^2.8.46",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
