@@ -9,7 +9,7 @@
 
    - Editors
      - Edit content
-     - Love to see what they get (WYSIWYG)
+     - Love to see what they get (even more than WYSIWYG)
 
    - Developers
      - Develop a website that displays the data
