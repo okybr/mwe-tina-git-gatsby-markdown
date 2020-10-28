@@ -1,6 +1,6 @@
 ---
-slug: "/foo"
-title: "Title of Example Page"
+slug: "/my-slug"
+title: "My title"
 ---
 
-Lorem ipsum dolor sit amet.
+My text.

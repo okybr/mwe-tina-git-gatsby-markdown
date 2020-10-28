@@ -5,7 +5,7 @@ exports.createPages = async ({
 }) => {
 
     const templateComponent = require.resolve(
-        `./src/templates/general.js`);
+        './src/templates/general.jsx');
 
     const result = await graphql(`
       {

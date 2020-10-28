@@ -2,14 +2,23 @@ module.exports = {
     plugins: [
 
         {
-            resolve: `gatsby-source-filesystem`,
+            resolve: 'gatsby-source-filesystem',
             options: {
-                name: `contents`,
+                name: 'contents',
                 path: `${__dirname}/src/contents`,
             },
         },
 
-        `gatsby-transformer-remark`,
+        'gatsby-transformer-remark',
+
+        {
+            resolve: 'gatsby-plugin-tinacms',
+            options: {
+                enabled: true,
+                sidebar: true,
+                plugins: [],
+            },
+        },
 
     ],
 };

@@ -7,9 +7,11 @@
   "private": true,
   "dependencies": {
     "gatsby": "^2.24.87",
+    "gatsby-plugin-tinacms": "^0.32.0",
     "gatsby-source-filesystem": "^2.3.37",
     "gatsby-transformer-remark": "^2.8.46",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.0"
   }
 }
