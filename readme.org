@@ -1,0 +1,38 @@
+* TinaCMS
+
+  Orhan Kemal Yüksel,
+  28. Oktober 2020
+
+
+** The Problem a CMS Solves
+
+   Content Management Systems (CMS) connect:
+
+   - Editors
+     - Edit content
+     - Love to see what they get (WYSIWYG)
+
+   - Developers
+     - Develop a website that displays the data
+     - Love to be lazy
+
+
+** The Solution TinaCMS Offers
+
+   - Licence: Apache 2.0
+   - Version: 0.x
+
+   - Connects
+     - a React-based framework (Gatsby or Next.js) with
+     - a backend (Git or Strapi)
+
+   - Integrates into the resulting website with
+     - An edit-button
+     - A sidebar for editing data fields of configurable types
+     - An in-page edit-button for each component on the site
+
+
+** Demo
+
+   - [[file:package.json][package.json]]
+   - [[file:gatsby-config.js][gatsby-config.js]]

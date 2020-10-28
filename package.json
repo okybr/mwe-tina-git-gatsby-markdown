@@ -1,9 +1,8 @@
 {
-  "name": "live-show",
-  "version": "1.0.0",
-  "main": "index.js",
+  "name": "mwe-tina-git-gatsby-markdown",
+  "version": "0.1.0",
   "author": "Orhan Kemal Yüksel <orhankemal.yueksel@br.de>",
-  "license": "MIT",
+  "license": "GPL-3.0",
   "private": true,
   "dependencies": {
     "gatsby": "^2.24.87",
