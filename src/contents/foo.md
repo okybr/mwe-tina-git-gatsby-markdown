@@ -1,5 +1,5 @@
 ---
-title: My title new
+title: My title
 slug: /my-slug
 ---
 
