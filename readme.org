@@ -16,10 +16,10 @@
      - Love to be lazy
 
 
-** The Solution TinaCMS Offers
+** The Solution TinaCMS Probes
 
-   - Licence: Apache 2.0
-   - Version: 0.x
+   | Licence | Apache 2.0 |
+   | Version |        0.x |
 
    - Connects
      - a React-based framework (Gatsby or Next.js) with
@@ -30,24 +30,35 @@
      - A sidebar for editing data fields of configurable types
      - An in-page edit-button for each component on the site
 
+   - Comes with 
+
 
 ** Demo
 
-   - Demo:
-     - =yarn exec gatsby develop=
-     - [[http://localhost:8000/my-slug][localhost:8000/my-slug]]
+*** Expectation
 
-   - Diving into the code:
+    - Gatsby as a static-site generator
+    - Markdown as markup language
+    - Git as version control system for the content
 
-     - Package management:
-       [[file:package.json][package.json]]
 
-     - Gatsby:
-       - [[file:gatsby-config.js][gatsby-config.js]]
-       - [[file:gatsby-node.js][gatsby-node.js]]
+*** Execution
 
-     - A template that supports markdown and injects Tina:
-       [[file:src/templates/general.jsx][src/templates/general.jsx]]
+    - =yarn exec gatsby develop=
+    - [[http://localhost:8000/my-slug][localhost:8000/my-slug]]
 
-     - A content file, written in markdown:
-       [[file:src/contents/foo.md][src/contents/foo.md]]
+
+*** Explanation
+
+    - Package management:
+      [[file:package.json][package.json]]
+
+    - Gatsby:
+      - [[file:gatsby-config.js][gatsby-config.js]]
+      - [[file:gatsby-node.js][gatsby-node.js]]
+
+    - A template that supports markdown and injects Tina:
+      [[file:src/templates/general.jsx][src/templates/general.jsx]]
+
+    - A content file, written in markdown:
+      [[file:src/contents/foo.md][src/contents/foo.md]]
