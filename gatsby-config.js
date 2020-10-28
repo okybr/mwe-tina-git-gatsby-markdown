@@ -16,7 +16,20 @@ module.exports = {
             options: {
                 enabled: true,
                 sidebar: true,
-                plugins: [],
+                plugins: [
+                    {
+                        resolve: 'gatsby-tinacms-git',
+                        options: {
+                            pathToRepo: __dirname,
+                            pathToContent: '/',
+                            defaultCommitMessage: 'My default commit message',
+                            defaultCommitName: 'My default commit name',
+                            defaultCommitEmail: 'my@default-commit.email',
+                            pushOnCommit: false,
+                        },
+                    },
+                    'gatsby-tinacms-remark',
+                ],
             },
         },
 

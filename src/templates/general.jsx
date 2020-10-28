@@ -1,24 +1,23 @@
-import React from "react";
-import { graphql } from "gatsby";
-import { useForm, usePlugin } from "tinacms";
+import React from 'react';
+import { graphql } from 'gatsby';
+import { usePlugin } from 'tinacms';
+import { useRemarkForm } from 'gatsby-tinacms-remark';
 
 export default function Template({ data }) {
 
-    const [post, form] = useForm({
-        id: data.markdownRemark.id,
-        label: "My Form Label",
-        initialValues: data.markdownRemark,
-        onSubmit: markdown => {
-            alert(`Submitting ${markdown.frontmatter.title}`);
-        },
-        fields: [
-            {
-                name: "frontmatter.title",
-                label: "Title",
-                component: "text",
-            },
-        ],
-    });
+    const [post, form] = useRemarkForm(
+        data.markdownRemark,
+        {
+            label: 'My Form Label',
+            fields: [
+                {
+                    name: 'frontmatter.title',
+                    label: 'My label for my title',
+                    component: 'text',
+                },
+            ],
+        }
+    );
 
     usePlugin(form);
 
@@ -39,6 +38,7 @@ export const pageQuery = graphql`
                 }
             }
         ) {
+            ...TinaRemark
             html
             frontmatter {
                 slug
