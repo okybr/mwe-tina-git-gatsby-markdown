@@ -1,7 +1,6 @@
 * TinaCMS
 
-  Orhan Kemal Yüksel,
-  28. Oktober 2020
+  Orhan Kemal Yüksel, 28. Oktober 2020
 
 
 ** The Problem a CMS Solves
@@ -34,5 +33,21 @@
 
 ** Demo
 
-   - [[file:package.json][package.json]]
-   - [[file:gatsby-config.js][gatsby-config.js]]
+   - Demo:
+     - =yarn exec gatsby develop=
+     - [[http://localhost:8000/my-slug][localhost:8000/my-slug]]
+
+   - Diving into the code:
+
+     - Package management:
+       [[file:package.json][package.json]]
+
+     - Gatsby:
+       - [[file:gatsby-config.js][gatsby-config.js]]
+       - [[file:gatsby-node.js][gatsby-node.js]]
+
+     - A template that supports markdown and injects Tina:
+       [[file:src/templates/general.jsx][src/templates/general.jsx]]
+
+     - A content file, written in markdown:
+       [[file:src/contents/foo.md][src/contents/foo.md]]
